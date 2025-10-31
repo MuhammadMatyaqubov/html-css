@@ -1,0 +1,20 @@
+div{
+    
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(0, 153, 255);
+}
+h3{
+    color: rgb(0, 153, 255);
+}
+#MMM{
+    background-color: rgb(0, 153, 255);
+    font-size: 20px;
+    color: white;
+    
+    border: 0px;
+    border-radius: 0px;
+    width: 200px;
+}
+
