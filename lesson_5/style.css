@@ -1,0 +1,30 @@
+p{
+    /*letter-spacing: 10px;*/
+    line-height: 50px;
+    border: 1px solid #000;
+    word-spacing: 30px;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+h1{
+    text-shadow: 10px 10px 5px blue
+}
+.box{
+        width: 350px;
+    height: 350px;
+    background: linear-gradient(to bottom, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+    border-radius: 100%;
+    box-shadow: 10px 10px 5px black;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  
+}
+
+.box2{
+    width: 350px;
+    height: 350px;
+    border-width: 30px;
+    border-style: solid;
+   border-image: url(channels4_profile.jpg) 6000 round;
+   color: green;
+}
