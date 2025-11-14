@@ -1,0 +1,32 @@
+.box{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(135deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+}
+.box1{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(45deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+}
+.box2{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(-45deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+            position: absolute;
+    right: 65;
+    top: 350 ;
+}
+.box3{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(-135deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+        position: absolute;
+    right: 65;
+    top: 0 ;
+}
+.container{
+    position: relative;
+    height: ;
+    border: 2px solid black;
+    width: 765px;
+}
