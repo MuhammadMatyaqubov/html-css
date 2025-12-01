@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    height: 100vh;
+}
+.box{
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    flex-grow: 1;
+}
+.red{
+    background-color: black;
+    color: red;
+    border-radius: 1000px;
+    align-self: start;
+}
+.orange{
+    background-color: black;
+    border-radius: 1000px;
+    color: orange;
+    align-self: end;
+}
+.yellow{
+    background-color: black;
+    border-radius: 1000px;
+    color:yellow;
+    align-self: start;
+}
+.green{
+    background-color: black;
+    border-radius: 1000px;
+    color:green;
+    align-self: end;
+}
+.lightblue{
+    background-color: black;
+    border-radius: 1000px;
+    color:rgb(0, 191, 255);
+    align-self: start;
+}
+.blue{
+    background-color: black;
+    border-radius: 1000px;
+    color:blue;
+    align-self: end;
+}
+.purple{
+    background-color: black;
+    border-radius: 1000px;
+    color:purple;
+    align-self: start;
+}

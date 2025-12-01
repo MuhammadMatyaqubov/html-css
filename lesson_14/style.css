@@ -1,0 +1,39 @@
+.container{
+    gap: 10px;
+    border: 0px solid black;
+    height: 500px;
+}
+.box{
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 25px;
+    color: white;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+.box1{
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: green;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}

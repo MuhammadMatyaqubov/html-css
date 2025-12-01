@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(135, 133, 133);
+}
+.logo {
+    width: 70px;
+    height: 40px;
+    background-image: url(images.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.search{
+
+}
+input{
+    width: 100px;
+    height: 25px;
+    border-radius: 20px ;
+    border: none;
+    text-align: center;
+}
+.menu{
+display: flex;
+gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+input::placeholder{
+    text-align: center;
+    color: blue;
+}
+main{
+    display: flex;
+    gap: 10px;
+}
+.box{
+    flex-grow: 2;
+    text-align: center;
+    background-color: blue;
+    line-height: 90vh;
+}
+.red{
+    flex-grow: 1;
+    background-color: red;
+}
