@@ -43,14 +43,32 @@ input::placeholder{
 main{
     display: flex;
     gap: 10px;
+    margin-inline: ;
 }
 .box{
     flex-grow: 2;
     text-align: center;
-    background-color: blue;
-    line-height: 90vh;
 }
 .red{
     flex-grow: 1;
     background-color: red;
+}
+.cards{
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+img{
+    width: 250px;
+    height: 150px;
+}
+h3{
+    color: blue;
+}
+.left{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right{
+    flex-direction: column;
 }
