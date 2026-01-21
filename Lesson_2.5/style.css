@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 150px auto;
+    width: 300px;
+    background-color: rgb(255, 91, 135);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 91, 135);
+    border: solid 5px rgb(255, 255, 255);
+    text-align: center;
+    color: white;
+    
+}
+p{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}   
