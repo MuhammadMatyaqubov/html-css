@@ -1,0 +1,62 @@
+a::before{
+    color: brown;
+    content: "New ";
+}
+a::after{
+    content: " +33";
+    color: blue;
+}
+.box{
+    position: relative;
+    margin: 100px auto;
+    width: 300px;
+    height: 170px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.box::after{
+    position: absolute;
+    content: "📬";
+    font-size: 20px;
+    text-align: center;
+    width: 50px;
+    line-height: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    right: 12px;
+    bottom: 20px;
+}
+.box::before{
+    content: "📨";
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    opacity: 0,3;
+    font-size: 70px;
+}
+input{
+    position: absolute;
+    text-align: center;
+    top: 75px;
+    left: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+}
+input::placeholder{
+    color: red;
+    text-align: center;
+}
+p::first-letter{
+    font-size: 100px;
+    column-rule-color: ;
+}
+p::first-line{
+    font-size: 50px;
+    color: brown;
+}
+p::selection{
+    color: rgb(14, 106, 161);
+    background-color: rgb(152, 53, 28);
+    
+}

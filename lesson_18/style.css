@@ -1,0 +1,19 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: misol 3s ease-in 1s infinite alternate;
+}
+@keyframes misol{ 
+    10%{
+        transform: translateX(400px);
+    }
+
+    50%{
+        transform: translateX(400px)  scale(2) rotate(3600deg);
+    }
+    100%{
+        transform: translateX(800px)  rotate(0) ;
+    }
+    
+}
