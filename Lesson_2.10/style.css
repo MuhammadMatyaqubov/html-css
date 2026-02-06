@@ -1,0 +1,62 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.qm{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.wm{
+    display: flex;
+    justify-content: space-around;
+}
+.em{
+    display: flex;
+    justify-content: space-around;
+}
+.rm{
+    display: flex;
+    justify-content: space-around;
+}
+.tm{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.blue{
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+.green{
+    background-color: rgb(0, 160, 0);
+    color: white;
+}
+
+.one{
+    border-radius: 5px;
+}
+.two{
+    border-radius: 10000px;
+}
+.three{
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.four{
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+.five{
+    
+}
