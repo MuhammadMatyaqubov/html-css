@@ -1,10 +1,40 @@
-a{
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    text-align: center;
+    background-color: rgb(255, 204, 0);
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
-
-h1{
-    font-size: 75px;
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
 }
-div{
-    background-color: black;
+.two{
+    grid-row: 2 / 4;
+}
+.six{
+    grid-column: 2 / 4;
+}
+.seven{
+    grid-row: 2 / 4;
+    grid-column: 4 / 4;
+}
+.black{
+    background-color: rgb(59, 59, 59);
+}
+.blue{
+    background-color: rgb(55, 162, 255);
+}
+.blackblue{
+    background-color: rgb(95, 125, 226);
+}
+.bluegreen{
+    background-color: rgb(115, 255, 206);
 }

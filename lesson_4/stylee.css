@@ -1,0 +1,24 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 140, 0);
+    animation: box ease-in 3s infinite;
+    margin: 200px auto;
+    border: 1px solid black;
+}
+@keyframes box{ 
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(-300px)
+    }
+    60%
+    75%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}

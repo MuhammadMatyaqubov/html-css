@@ -1,26 +1,35 @@
 .box{
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(135deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
-.box1{
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(45deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+.red{
+    transition: all 1s steps(5, end);
 }
-.box2{
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(135deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+.blue{
+    transition: all 1s ease-in;
 }
-.box3{
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(45deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+.yellow{
+    transition: all 1s ease-in-out;
 }
-.box4{
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(135deg, red, orange, yellow, rgb(0, 255, 0), rgb(0, 191, 255), blue, purple);
+.green{
+    transition: all 1s linear;
 }
-
+.box:hover{
+    background-color: blue;;
+}
+.red:hover{
+    transform: translateY(0px) rotate(100px);
+}
+.blue:hover{
+    transform: translate(780px, -67px);
+}
+.yellow:hover{
+    transform: translateY(1110px);
+}
+.green:hover{
+    transform: translate(780px , 1050px)
+}
